@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/fast6/Fast-Drone-250_230708/devel/include/**",
+                "/opt/ros/noetic/include/**",
+                "/home/fast6/Fast-Drone-250_230708/src/planner/bspline_opt/include/**",
+                "/home/fast6/Fast-Drone-250_230708/src/realflight_modules/VINS-Fusion/camera_models/include/**",
+                "/home/fast6/Fast-Drone-250_230708/src/utils/DecompROS/decomp_ros_utils/include/**",
+                "/home/fast6/Fast-Drone-250_230708/src/planner/drone_detect/include/**",
+                "/home/fast6/Fast-Drone-250_230708/src/planner/plan_manage/include/**",
+                "/home/fast6/Fast-Drone-250_230708/src/planner/minimal_snap/min_snap/include/**",
+                "/home/fast6/Fast-Drone-250_230708/src/uav_simulator/mockamap/include/**",
+                "/home/fast6/Fast-Drone-250_230708/src/planner/minimal_snap/my_visualization/include/**",
+                "/home/fast6/Fast-Drone-250_230708/src/planner/path_searching/include/**",
+                "/home/fast6/Fast-Drone-250_230708/src/planner/plan_env/include/**",
+                "/home/fast6/Fast-Drone-250_230708/src/utils/pose_utils/include/**",
+                "/home/fast6/Fast-Drone-250_230708/src/utils/quadrotor_msgs/include/**",
+                "/home/fast6/Fast-Drone-250_230708/src/realflight_modules/realsense-ros/realsense2_camera/include/**",
+                "/home/fast6/Fast-Drone-250_230708/src/uav_simulator/so3_control/include/**",
+                "/home/fast6/Fast-Drone-250_230708/src/uav_simulator/so3_quadrotor_simulator/include/**",
+                "/home/fast6/Fast-Drone-250_230708/src/planner/minimal_snap/traj_server/include/**",
+                "/home/fast6/Fast-Drone-250_230708/src/planner/traj_utils/include/**",
+                "/home/fast6/Fast-Drone-250_230708/src/utils/uav_utils/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/devel/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,19 @@
+<launch>
+  <node 
+    name="aim_detect" 
+    pkg="aim_detect" 
+    type="aim_detect" 
+    output="screen"
+    respawn="true"
+    > 
+  </node>
+
+  <node 
+    name="campoint" 
+    pkg="campoint" 
+    type="campoint" 
+    output="screen"
+    respawn="true"
+    > 
+  </node>
+</launch>

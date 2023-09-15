@@ -1,0 +1,42 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/uava/Fast-Drone-250_230708/devel/include/**",
+                "/opt/ros/noetic/include/**",
+                "/home/uava/Fast-Drone-250_230708/src/planner/bspline_opt/include/**",
+                "/home/uava/Fast-Drone-250_230708/src/realflight_modules/VINS-Fusion/camera_models/include/**",
+                "/home/uava/Fast-Drone-250_230708/src/utils/DecompROS/decomp_ros_utils/include/**",
+                "/home/uava/Fast-Drone-250_230708/src/planner/drone_detect/include/**",
+                "/home/uava/Fast-Drone-250_230708/src/planner/plan_manage/include/**",
+                "/home/uava/Fast-Drone-250_230708/src/fdilink_ahrs/include/**",
+                "/home/uava/Fast-Drone-250_230708/src/planner/minimal_snap/min_snap/include/**",
+                "/home/uava/Fast-Drone-250_230708/src/uav_simulator/mockamap/include/**",
+                "/home/uava/Fast-Drone-250_230708/src/planner/minimal_snap/my_visualization/include/**",
+                "/home/uava/Fast-Drone-250_230708/src/mydemo/include/**",
+                "/home/uava/Fast-Drone-250_230708/src/planner/path_searching/include/**",
+                "/home/uava/Fast-Drone-250_230708/src/planner/plan_env/include/**",
+                "/home/uava/Fast-Drone-250_230708/src/utils/pose_utils/include/**",
+                "/home/uava/Fast-Drone-250_230708/src/utils/quadrotor_msgs/include/**",
+                "/home/uava/Fast-Drone-250_230708/src/realflight_modules/realsense-ros/realsense2_camera/include/**",
+                "/home/uava/Fast-Drone-250_230708/src/uav_simulator/so3_control/include/**",
+                "/home/uava/Fast-Drone-250_230708/src/uav_simulator/so3_quadrotor_simulator/include/**",
+                "/home/uava/Fast-Drone-250_230708/src/planner/minimal_snap/traj_server/include/**",
+                "/home/uava/Fast-Drone-250_230708/src/planner/traj_utils/include/**",
+                "/home/uava/Fast-Drone-250_230708/src/utils/uav_utils/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/aim_detect/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

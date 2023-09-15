@@ -1,0 +1,10 @@
+<launch>
+  <node 
+    name="myplanner_node" 
+    pkg="myplanner" 
+    type="myplanner_node" 
+    output="screen"
+    respawn="true"
+    > 
+  </node>
+</launch>
